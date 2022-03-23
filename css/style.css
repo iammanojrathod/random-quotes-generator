@@ -75,3 +75,37 @@ button:hover{
     color: #F76E11;
     border: 2px solid #F76E11;
 }
+
+@media (max-width: 900px){
+    body{
+        padding: 40px;
+    }
+}
+@media (max-width: 760px){
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 600px){
+    body{
+        font-size: 15px;
+    }
+    .container{
+        padding: 10px;
+        width: 100%;
+    }
+}
+@media (max-width: 475px){
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    h3, button{
+        font-size: 12px;
+    }
+    .container{
+        height: 260px;
+    }
+}
